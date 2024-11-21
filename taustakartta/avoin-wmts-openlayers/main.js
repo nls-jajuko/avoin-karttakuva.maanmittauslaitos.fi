@@ -68,15 +68,7 @@ fetch(capsUrl)
         tileLoadFunction: (tile, src) => {
 
           let tilesrc = `${src}?api-key=${apiKey}`
-
-          fetch(tilesrc).then(r => {
-            console.log(r.headers.get('Last-Modified'));
-            return r.blob();
-          }
-          ).then(blob => {
-            console.log(tilesrc);
-            tile.getImage().src = URL.createObjectURL(blob);
-          })
+          tile.getImage().src = tilesrc;
         }
       }
     };
