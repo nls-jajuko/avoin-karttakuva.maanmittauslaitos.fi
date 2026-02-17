@@ -6,7 +6,7 @@ import WMTS, { optionsFromCapabilities } from 'ol/source/WMTS.js';
 import WMTSCapabilities from 'ol/format/WMTSCapabilities.js';
 import { fromLonLat } from 'ol/proj';
 
-const apiKey = 'INSERT-YOUR-API-KEY',
+const apiKey = '<INSERT-YOUR-API-KEY>',
   epsg = 'EPSG:3857',
   tileMatrixSet = 'WGS84_Pseudo-Mercator',
   capsUrl = `https://avoin-karttakuva.maanmittauslaitos.fi/avoin/wmts/1.0.0/WMTSCapabilities.xml?api-key=${apiKey}`;
