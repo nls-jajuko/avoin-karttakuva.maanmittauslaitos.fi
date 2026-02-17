@@ -11,12 +11,12 @@
 "dependencies": {
     "bootstrap": "^5.3.3",
     "bootstrap-icons": "^1.11.3",
-    "ol": "10.5.0",
-    "ol-mapbox-style": "12.4.0",
-    "proj4": "^2.15.0",
+    "ol": "10.8.0",
+    "ol-mapbox-style": "13.2.1",
+    "proj4": "^2.20.2",
     "webfont-matcher": "^1.1.0"
   },
   "devDependencies": {
-    "vite": "^6.1.6"
+    "vite": "7.3.1"
   }
 }
